@@ -1,0 +1,119 @@
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.header {
+	display: block;
+	width: 100%;
+	position: fixed;
+	height: 4.313rem;
+	border-bottom: 1px solid seashell;
+	z-index: 1;
+	background: black;
+	padding-top: 10px;
+	top: 0px;
+	left: 0px;
+}
+
+h2 {
+	margin: auto;
+}
+h6 {
+	margin: auto;
+}
+
+.header img {
+	height: 3.125rem;
+	float: left;
+	padding-left: 0.625rem;
+}
+
+.navbar {
+	display: table;
+	text-decoration: underline;
+	float: right;
+	margin: 0 auto;
+}
+
+.navbar li {
+	display: table-cell;
+	padding: 0px 10px;
+	font-size: 1.25rem;
+}
+
+.jumbotron {
+	background-image: url('img-mission-background.jpg');
+	padding: 10px;
+	max-width: 75rem;
+	height: 43.75rem;
+	position: relative;
+}
+.jumbotron .mission {
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.trend-container {
+	display: inline-flex;
+	max-width: 1000px;
+	height: auto;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.container img {
+	height: 200px;
+	width: 300px;
+	padding: 10px 10px;
+}
+
+h5 {
+	margin-top: 0px;
+}
+
+.locations-container {
+	margin-top: 30px;
+	background-image: url('img-locations-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.locations-container h2 {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.storescontainer {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.store {
+	background-color: black;
+	max-width: 300px;
+	max-height: auto;
+	margin: auto;
+	padding: 10px;
+}
+
+footer {
+	margin-top: 3%;
+}
+
+.copyright {
+	margin-left: 10px;
+	text-align: left;
+}
